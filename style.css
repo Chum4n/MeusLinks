@@ -1,0 +1,170 @@
+*{
+    font-family: Corbel, Times, serif;
+    font-style: normal;
+    color: var(--txt-color);
+    text-shadow: 2px 2px 5px var(--sdw-clr);
+    overflow: hidden
+}
+#body{
+    width: 100%;
+    background: var(--bg-img1) no-repeat fixed center;/*Vasco*/
+    background-size: var(--bg-sz);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+img{
+    margin: auto;   
+}
+
+.princ{
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background: var(--bg-img2) no-repeat fixed center;/*Vasco*/
+    background-size: var(--pr-sz);
+    
+    max-width: 700px;
+    width: 95%;
+    height: 80%;
+    margin: 0 auto 4% auto ;
+    border-radius: 20px;
+}
+
+.fotoperfil{
+    border-radius: 50%;
+    min-width: 100px;
+    width: 30%;
+    padding: 4px;
+    border:  var(--sdw-clr) outset 5px;
+    margin: 15px 35% 1.4% 35%;
+    
+}
+
+table{
+    width: 95%;
+    margin: auto;
+}
+
+.tr{
+    margin-top:auto;
+}
+.espaco{
+    visibility: hidden;
+    height: 15px;
+}
+.espaco2{
+    visibility: hidden;
+    height: 26px;
+}
+
+.li{
+    background: var(--bg-img3) no-repeat fixed center;/*Vasco*/
+    background-size: var(--pr-sz);
+    width: 95%;
+    height: 80px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#divlinks{
+    margin-top: 20px;
+    margin: auto;
+    width: 93%; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none; 
+}
+
+.links{
+    width: 50px;
+}
+
+tr{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+footer{
+    background-color: aqua;
+    max-width: 700px;
+    width: 95%;
+    height: 25%;
+    margin: auto;
+    border-radius: 20px 20px 10px 10px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background: var(--bg-img2) no-repeat fixed center;/*Vasco*/
+    background-size: var(--pr-sz);
+}
+h3{
+    text-align: center;
+}
+button{
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    
+    background: var(--bg-img3) no-repeat fixed center;/*Vasco*/
+    background-size: var(--pr-sz);
+    color: lightgray;
+}
+h6{
+    text-align: center;
+}
+.fot{
+    margin-bottom: 10px;
+}
+/*--------------------------------ESTILOS--------------------------------*/
+ body.vasco {
+    --bg-img1: url(img/vasco/fundo-vasco.jpg);
+    --bg-img2: url(img/vasco/Vas.jpg);
+    --bg-img3: url(img/vasco/Vas2.jpg);
+    --bg-sz: auto;
+    --pr-sz: auto;
+    --sdw-clr: red;
+    --txt-color:lightgray;
+}
+
+ body.palmeiras {
+    --bg-img1: url(img/palmeiras/palm1.jpeg) ;
+    --bg-img2: url(img/palmeiras/palm2.jpg);
+    --bg-img3: url(img/palmeiras/palm3.jpg);
+    --bg-sz: cover;
+    --pr-sz: auto;
+    --sdw-clr: rgb(2, 190, 65);
+    --txt-color:lightgray;
+}
+
+body.linense {
+    --bg-img1: url(img/linense/lin1.jpg);
+    --bg-img2: url(img/linense/lin2.jpg);
+    --bg-img3: url(img/linense/lin3.jpg);
+    --bg-sz: cover;
+    --pr-sz: auto;
+    --sdw-clr: rgb(255, 0, 0);
+    --txt-color:rgb(134, 134, 134);
+}
+ body.londrina {
+    --bg-img1: url(img/londrina/lond1.jpg);
+    --bg-img2: url(img/londrina/lond2.jpg);
+    --bg-img3: url(img/londrina/lond3.jpg);
+    --bg-sz: cover;
+    --pr-sz: auto;
+    --sdw-clr: rgb(50, 224, 255);
+    --txt-color:lightgray;
+}
+/*#######################################################################*/
